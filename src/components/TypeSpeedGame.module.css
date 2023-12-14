@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #141236;
+}
+
+.container {
+    background-color: #869ddc;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    color: #869ddc;
+}
+
+
+.quote-display,
+.quote-input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.quote-input {
+    width: 450px;
+    border-radius: 10px;
+    border: 3px solid #3b0101;
+    resize: none;
+
+}
+
+.quote-input:focus {
+    outline: none;
+}
+
+.correct {
+    color: rgb(22, 190, 22);
+}
+
+.incorrect {
+    color: rgb(255, 1, 1);
+    text-decoration: 2px solid underline;
+}
